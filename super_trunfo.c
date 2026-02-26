@@ -5,7 +5,7 @@ int main()
     char estado1, estado2;
     int codigo1, codigo2;
     char nomeCidade1[50], nomeCidade2[50];
-    int populacao1, populacao2;
+    unsigned long int populacao1, populacao2;
     float area1, area2;
     double pib1, pib2;
     unsigned long int pontosTuristicos1, pontosTuristicos2;
@@ -107,7 +107,7 @@ int main()
     printf("ESTADO : %c \n", estado1);
     printf("CODIGO : %d \n", codigo1);
     printf("NOME DA CIDADE : %s\n", nomeCidade1);
-    printf("POPULACAO : %d\n", populacao1);
+    printf("POPULACAO : %lu\n", populacao1);
     printf("AREA : %.2f km2\n", area1);
     printf("PIB : %.2f\n", pib1);
     printf("NUMERO DE PONTOS TURISTICOS : %lu\n", pontosTuristicos1);
@@ -120,7 +120,7 @@ int main()
     printf("ESTADO : %c \n", estado2);
     printf("CODIGO : %d \n", codigo2);
     printf("NOME DA CIDADE : %s\n", nomeCidade2);
-    printf("POPULACAO : %d\n", populacao2);
+    printf("POPULACAO : %lu\n", populacao2);
     printf("AREA : %.2f km2\n", area2);
     printf("PIB : %.2f\n", pib2);
     printf("NUMERO DE PONTOS TURISTICOS : %lu\n", pontosTuristicos2);
